@@ -5,10 +5,11 @@ import { connectDB } from './config/db.js';
 import authRouter from './routes/auth.route.js';
 import messageRouter from './routes/message.route.js';
 import cors from 'cors';
+import { app, server } from './config/socket.js';
 
 dotenv.config();
 
-const app = express();
+// const app = express();
 const PORT = process.env.PORT;
 connectDB();
 
@@ -23,6 +24,6 @@ app.use(cors({
 app.use("/auth", authRouter);
 app.use("/message", messageRouter);
 
-app.listen(PORT, () => {
+server.listen(PORT, () => {
     console.log(`Server is Live on Port: ${PORT}`)
 })

@@ -13,12 +13,15 @@ import { LoaderCircle } from 'lucide-react'
 import { Toaster } from 'react-hot-toast'
 
 const App = () => {
-  const { authUser, checkAuth, isCheckingAuth } = useAuthStore();
+  const { authUser, checkAuth, isCheckingAuth, onlineUsers } = useAuthStore();
+  const { theme } = useThemeStore();
+
+  // console.log(onlineUsers);
+
   useEffect(() => {
     checkAuth()
   }, [checkAuth])
 
-  const { theme } = useThemeStore();
   // console.log(authUser);
   
   if(isCheckingAuth && !authUser) return (
@@ -27,7 +30,6 @@ const App = () => {
     </div>
   )
 
-  axiosInstance
   return (
     <div data-theme={theme}>
       <Navbar />
