@@ -118,6 +118,10 @@ Create a `.env` file inside the `Backend/` directory with the following content:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
+NODE_ENV='development'
+CLOUDINARY_CLOUD_NAME=your_cloudinary_username
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 ```
 
 5. **Run the application**
