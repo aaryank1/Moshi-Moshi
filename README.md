@@ -146,29 +146,6 @@ Visit the app at: [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!  
-Feel free to fork the repo and submit a pull request.
-
-To contribute:
-
-```bash
-# Fork the repository
-# Create your feature branch
-git checkout -b feature/your-feature-name
-
-# Commit your changes
-git commit -m "Add some feature"
-
-# Push to the branch
-git push origin feature/your-feature-name
-
-# Open a pull request
-```
-
----
-
 ## 🌐 Links
 
 - [Project Repository](https://github.com/aaryank1/Moshi-Moshi)
