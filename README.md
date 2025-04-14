@@ -1,3 +1,6 @@
+
+https://github.com/user-attachments/assets/96b6577f-934c-4734-9ffe-86ec4f3c9384
+
 # Moshi-Moshi
 
 **Moshi-Moshi** is a full-stack real-time chat application built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and **Socket.io**. It offers seamless communication with an intuitive UI, secure authentication, and scalable architecture.
