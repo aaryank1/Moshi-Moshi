@@ -13,6 +13,16 @@
 - **Modular Codebase** with separate backend/frontend  
 
 ---
+## 🧪 Test Credentials
+
+Use the following credentials to log in as a test user (fill in your details below):
+
+```txt
+🔐 Email: jane@gmail.com 
+🔑 Password: abcd1234
+```
+
+---
 
 ## 🛠️ Tech Stack
 
